@@ -1,0 +1,40 @@
+/* yWhiteMenuLayer  */
+
+.yMenuContainer {
+	background-color: #fff;
+	z-index: 10003;
+	top: 0;
+}
+
+.yMenuContainer a.current,
+.yMenuContainer a.current:hover {
+	background-color: transparent;
+}
+
+.yMenuMask {
+	z-index: 10002;
+}
+
+.yMenuContainer,
+.yMenuContainer a,
+.yMenuContainer > .inner > ul > li > a,
+.yMenuCurrentPageNavTitle {
+	color: #333;
+}
+
+.yMenuContainer a:hover,
+span.show:hover {
+	background-color: rgba(0,0,0,.1);
+}
+
+.c-arrow.c-right .yMenuContainer span.show:after {
+	border-color: transparent transparent transparent rgba(0,0,0,.2);
+}
+
+.c-arrow.c-right .yMenuContainer .active-li > span.show:after {
+	border-color: rgba(0,0,0,.2) transparent transparent transparent;
+}
+
+.yMenuContainer > .inner > ul > li ul {
+	background-color: rgba(0,0,0,.1);
+}

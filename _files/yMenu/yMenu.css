@@ -1,0 +1,369 @@
+/* yWhite (default) --- */
+
+.yMenuContainer,
+.yMenuButton,
+.yMenuCurrentName,
+.yMenuBar {
+	background-color: #fff;
+}
+
+.yMenuButton > .icon,
+.yMenuButton > .icon:before,
+.yMenuButton > .icon:after {
+	background-color: #000;
+}
+
+.yMenuCurrentName,
+.yMenuContainer a,
+.yMenuContainer > .inner > ul > li > a {
+	color: #000;
+}
+
+.yMenuContainer > .inner > ul > li ul {
+	background-color: rgba(0,0,0,.1);
+}
+
+span.yMenuSep,
+span.show:hover,
+.yMenuContainer a:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+.yMenuContainer a.current {
+	background-color: rgba(0,0,0,.25);
+}
+
+.yMenuContainer .active-li > span.show:after {
+	border-color: rgba(0,0,0,.2) transparent transparent transparent;
+}
+
+/* --- CLORS END */
+
+/* DEFAULT SHOW --- */
+
+.yMenuContainer span.show {
+	width: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	display: none;
+
+}
+
+.yMenuContainer span.show.open {
+	display: inline-block;
+}
+
+.yMenuContainer span.show:after {
+	content: "+";
+	display: block;
+	font-size: 1.5em;
+	height: 20px;
+	left: 50%;
+	line-height: 20px;
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 20px;
+	font-weight: 300;
+}
+
+.yMenuContainer .active-li > span.show:after {
+	content: '-';
+}
+
+/* --- DEFAULT SHOW END*/
+
+html.opened {
+	overflow: hidden;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.yMenuContainer,
+.yMenuButton,
+.yMenuCurrentName {
+	position: fixed;
+	z-index: 10000;
+	font-size: 1em;
+}
+
+.yMenuContainer a {
+	font-weight: 600;
+}
+
+.yMenuCurrentName {
+	display: none;
+}
+
+.yMenuContainer,
+.yMenuButton > .icon,
+.yMenuButton > .icon:before,
+.yMenuButton > .icon:after {
+	transition: all .2s;
+}
+
+.yMenuContainer {
+	top: 49px; bottom: 0;
+	left: 0; width: 240px;
+	overflow: hidden;
+	margin-left: -270px;
+	box-shadow: 0 5px 30px rgba(0,0,0,.5);
+	font-weight: 600;
+}
+
+.yMenuContainer a {
+	text-decoration: none;
+	position: relative;
+}
+
+.yMenuContainer > .inner {
+	width: calc(100% + 20px);
+	position: absolute;
+	top: 0; bottom: 0;
+	overflow-y: auto;
+}
+
+.yMenuContainer > .inner > ul {
+	width: 100%;
+	display: block;
+}
+
+.yMenuContainer > .inner > ul li,
+.yMenuContainer > .inner > ul li > a {
+	display: block;
+}
+
+.yMenuContainer > .inner > ul > li,
+.yMenuPage li {
+	width: 240px;
+}
+
+.yMenuContainer > .inner > ul li > a {
+	padding: 15px;
+	height: auto;
+	line-height: 1.5em;
+	font-size: .8em;
+}
+
+.yMenuButton {
+	width: 50px;
+	height: 49px;
+	left: 0; top: 0;
+	cursor: pointer;
+}
+
+.yMenuButtonTouchLayer {
+	width: 50px;
+	height: 49px;
+	left: 0; top: 0;
+	position: fixed;
+}
+
+.yMenuButton > .icon,
+.yMenuButton > .icon:before,
+.yMenuButton > .icon:after {
+	width: 30px; height: 1px;
+	content:' ';
+	position: absolute;
+}
+
+.yMenuButton > .icon {
+	top: 24px;
+}
+
+.yMenuButton > .icon {
+	left: 10px;
+}
+
+.yMenuButton > .icon:before {
+	margin-top: -10px;
+}
+
+.yMenuButton > .icon:after {
+	margin-top: 10px;
+}
+
+.yMenuContainer.opened {
+	margin-left: 0;
+}
+
+.yMenuButton.opened > .icon {
+	background-color: transparent;
+}
+
+.yMenuButton.opened > .icon:before {
+	transform: rotate(45deg);
+	height: 2px;
+	margin-top: 0;
+}
+
+.yMenuButton.opened > .icon:after {
+	transform: rotate(-45deg);
+	height: 2px;
+	margin-top: 0;
+}
+
+.yMenuCurrentName {
+	width: 190px; height: 49px;
+	text-align: center;
+	top: 0; left: 50px;
+	line-height: 50px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+/* --- SUBITEMS --- */
+
+.yMenuContainer a.list {
+	width: calc(100% - 80px);
+}
+
+.yMenuContainer li > ul > li > a.list {
+	width: calc(100% - 80px);
+}
+
+.yMenuContainer li > ul > li > ul > li > a.list {
+	width: calc(100% - 90px);
+}
+
+.yMenuContainer > .inner > ul {
+}
+
+.yMenuContainer > .inner > ul li,
+.yMenuContainer > .inner > ul li > span.show {
+	font-size: .8em;
+	line-height: 1.5em;
+}
+
+.yMenuContainer > .inner ul,
+.yMenuContainer > .inner li,
+.yMenuContainer > .inner a {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.yMenuContainer > .inner > ul li > ul > li a {
+	padding: 10px;
+}
+
+.yMenuContainer > .inner > ul li > ul > li > a {
+	padding-left: 30px;
+}
+
+.yMenuContainer > .inner > ul li > ul > li > ul > li > a {
+	padding-left: 60px;
+}
+
+.yMenuContainer > .inner > ul li > ul > li span.show {
+	padding: 10px 25px;
+}
+
+.yMenuContainer > .inner > ul li > ul,
+.yMenuContainer > .inner > ul li > ul > li > ul {
+	height: 0;
+	transition: all .2s;
+}
+
+.yMenuContainer > .inner > ul li.active-li > ul,
+.yMenuContainer > .inner > ul li > ul > li.active-li > ul {
+	height: auto;
+}
+
+.yMenuBar {
+	width: calc(100% - 240px);
+	height: 49px;
+	position: fixed;
+	top: 0;
+	left: 50px;
+	display: none;
+	z-index: 10001;
+}
+
+span.yMenuSep {
+	display: block;
+	height: 1px;
+	margin: 10px;
+	width: calc(100% - 40px);
+}
+
+.yMenuCurrentPageNavTitle {
+	padding: 10px;
+	text-decoration: underline;
+	display: block;
+}
+
+.yMenuBarShadow {
+	position: fixed;
+	width: 100%;
+	height: 49px;
+	left: 0;
+	top: 0;
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+.yMenuContainer .yMenuPage li > a {
+	padding: 15px;
+	display: block;
+}
+
+.yMenuMask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: rgba(0,0,0,.5);
+}
+
+.yMenuMask.opened {
+	display: block;
+}
+
+#yTitle {
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+@media all and (max-width: 768px) {
+	.yMenuCurrentName {
+		display: none !important;
+	}
+
+	.yMenuBar {
+		left: 50px !important;
+		width: calc(100% - 50px);
+	}
+}
+
+/*
+.yMenuContainer.arrow.right:after {
+	width: 0; height: 0;
+	border-width: 6px;
+	border-style: solid;
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+	right: 10px;
+}
+
+.yMenuContainer.arrow.right:after {
+	margin-top: -3px;
+	right: 13px;
+}
+*/

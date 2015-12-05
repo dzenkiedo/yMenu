@@ -1,0 +1,9 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Clear Sans', Arial, Helvetica, Sans-serief;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
