@@ -9,37 +9,65 @@
 <section class="sec">
 	<div class="yTitle title">Universal menu (&nbsp;jQuery&nbsp;&&nbsp;CSS3&nbsp;)&nbsp;| <b>yMenu</b></div>
 	<div class="content">
-		<div class="advances">
-			<div class="advance">
-				<div class="title">For all devices and screens with JSON settings</div>
-				<div class="content">
-					<div class="codeTitle"><div class="codeTitleTab">yMenu init code</div></div>
-					<code class="settings">
-					$(<span class="codeString">'.yMenu'</span>).yMenu({<br>
-						&nbsp;&nbsp;yMenu                   : <span class="codeString">'.yMenu'</span>,<br>
-						&nbsp;&nbsp;yMenuContainer          : <span class="codeString">'.yMenuContainer'</span>,<br>
-						&nbsp;&nbsp;yMenuButtonTouchLayer   : <span class="codeString">'.yMenuButtonTouchLayer'</span>,<br>
-						&nbsp;&nbsp;yMenuButton             : <span class="codeString">'.yMenuButton'</span>,<br>
-						&nbsp;&nbsp;yMenuCurrentName        : <span class="codeString">'.yMenuCurrentName'</span>,<br>
-						&nbsp;&nbsp;yMenuBar                : <span class="codeString">'.yMenuBar'</span>,<br>
-						&nbsp;&nbsp;yMenuActiveColor        : <span class="codeString">'default'</span>,<br>
-						&nbsp;&nbsp;yMenuOpeners            : <span class="codeString">'c-arrow</span>',<br>
-						&nbsp;&nbsp;yMenuOpenersOrientation : <span class="codeString">'c-right</span>',<br>
-						&nbsp;&nbsp;yMultilevel             : <span class="codeBool">true</span>,<br>
-						&nbsp;&nbsp;yMenuContainerWidth     : <span class="codeInt">240</span>,<br>
-						&nbsp;&nbsp;yMenuShowBar            : <span class="codeBool">true</span>,<br>
-						&nbsp;&nbsp;yMenuShowCurrentName    : <span class="codeBool">true</span>,<br>
-						&nbsp;&nbsp;yMenuBodyReact          : <span class="codeBool">true</span>,<br>
-						&nbsp;&nbsp;yMenuRemember           : <span class="codeBool">false</span>,<br>
-						&nbsp;&nbsp;closeOnOutClick         : <span class="codeBool">true</span>,<br>
-						&nbsp;&nbsp;yMenuText               : <span class="codeString">'MENU'</span>,<br>
-						&nbsp;&nbsp;yMenuCloseText          : <span class="codeString">'CLOSE'</span><br>
-					});
-					</code>
-				</div>
-			</div>
-		</div>
-
+		<div class="title">For all devices and screens with JSON settings</div>
+		<div class="codeTitle"><div class="codeTitleTab">yMenu init code</div></div>
+		<code class="codeJS">
+		$(<span class="codeString">'.yMenu'</span>).yMenu({<br>
+			&nbsp;&nbsp;yMenu                   : <span class="codeString">'.yMenu'</span>,<br>
+			&nbsp;&nbsp;yMenuContainer          : <span class="codeString">'.yMenuContainer'</span>,<br>
+			&nbsp;&nbsp;yMenuButtonTouchLayer   : <span class="codeString">'.yMenuButtonTouchLayer'</span>,<br>
+			&nbsp;&nbsp;yMenuButton             : <span class="codeString">'.yMenuButton'</span>,<br>
+			&nbsp;&nbsp;yMenuCurrentName        : <span class="codeString">'.yMenuCurrentName'</span>,<br>
+			&nbsp;&nbsp;yMenuBar                : <span class="codeString">'.yMenuBar'</span>,<br>
+			&nbsp;&nbsp;yMenuActiveColor        : <span class="codeString">'default'</span>,<br>
+			&nbsp;&nbsp;yMenuOpeners            : <span class="codeString">'c-arrow</span>',<br>
+			&nbsp;&nbsp;yMenuOpenersOrientation : <span class="codeString">'c-right</span>',<br>
+			&nbsp;&nbsp;yMultilevel             : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuContainerWidth     : <span class="codeInt">240</span>,<br>
+			&nbsp;&nbsp;yMenuShowBar            : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuShowCurrentName    : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuBodyReact          : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuRemember           : <span class="codeBool">false</span>,<br>
+			&nbsp;&nbsp;closeOnOutClick         : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuText               : <span class="codeString">'MENU'</span>,<br>
+			&nbsp;&nbsp;yMenuCloseText          : <span class="codeString">'CLOSE'</span><br>
+		});
+		</code>
+		<div class="title">Default UL > LI > A html syntaxis</div>
+		<div class="codeTitle"><div class="codeTitleTab">yMenu HTML code</div></div>
+		<code class="codeHTML">
+			&lt;div class=<span class="codeString">"yMenu"</span>&gt;<br>
+			&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuContainer"</span>&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"inner"</span>&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/"</span>&gt;Home&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/about/"</span>&gt;About&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/services/"</span>&gt;Services&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/portfolio/"</span>&gt;Portfolio&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/"</span>&gt;Lab&lt;/a&gt;&lt;span class="show"&gt;&amp;nbsp;&lt;/span&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/"</span>&gt;Web&lt;/a&gt;&lt;span class="show"&gt;&amp;nbsp;&lt;/span&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/frontend"</span>&gt;Front-End&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/backend"</span>&gt;Back-End&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/design/"</span>&gt;Design&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/promo/"</span>&gt;Promo&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/contacts/"</span>&gt;Contacts&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuButton"</span>&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"icon"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuButtonTouchLayer"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuCurrentName"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuBar"</span>&gt;&lt;div id=<span class="codeString">"yTitle"</span>&gt;&lt;/div&gt;&lt;/div&gt;<br>
+			&lt;/div&gt;
+		</code>
 	</div>
 </section>
 
