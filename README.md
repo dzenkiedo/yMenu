@@ -7,6 +7,7 @@
 simply copy all files from folder _files and modify as you wish
 
 for example
+```
     <html>
     <head>
       <link rel="stylesheet" href="css/clearsans.css">
@@ -23,3 +24,4 @@ for example
       <!-- your code here -->
     </body>
     </html>
+```
