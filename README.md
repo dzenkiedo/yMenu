@@ -7,7 +7,7 @@
 simply copy all files from folder _files and modify as you wish
 
 for example
-    `<html>
+    <html>
     <head>
       <link rel="stylesheet" href="css/clearsans.css">
       <link rel="stylesheet" href="css/cssBase.css">
@@ -22,4 +22,4 @@ for example
     <body>
       <!-- your code here -->
     </body>
-    </html>`
+    </html>
