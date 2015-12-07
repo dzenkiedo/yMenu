@@ -1,0 +1,46 @@
+code {
+	display: block;
+	font-size: 1em;
+	line-height: 1.2em;
+	padding: 10px;
+	margin: 20px 0;
+	background-color: #232525;
+	color: #a9b7c6;
+	box-shadow: 0 2px 20px rgba(0,0,0,.25);
+	overflow: hidden;
+}
+
+.codeTitle {
+	font-size: 1em;
+	display: block;
+	color: #fff;
+	background-color: #1e1e1e;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.codeTitleTab {
+	display: block;
+	float: left;
+	background-color: #2d2d2d;
+	padding: 5px 20px;
+}
+
+.codeString {
+	color: #6a8759;
+}
+
+.codeBool {
+	color: #cc7730;
+}
+
+.codeInt {
+	color: #6797bb;
+}
+
+@media all and (max-width: 768px) {
+	code {
+		font-size: .8em
+	}
+}

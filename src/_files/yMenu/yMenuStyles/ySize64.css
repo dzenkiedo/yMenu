@@ -1,0 +1,44 @@
+/* ySize64  */
+
+body {
+	padding-top: 64px;
+}
+
+.yMenuButton,
+.yMenuButtonTouchLayer,
+.yMenuCurrentName,
+.yMenuBar,
+.yMenuBarShadow,
+#yTitle {
+	height: 64px;
+	line-height: 64px;
+	font-size: 18px;
+}
+
+.yMenuContainer {
+	top: 64px;
+}
+
+.yMenuCurrentName {
+	font-weight: 800;
+}
+
+.yMenuButton > .icon {
+	top: 32px;
+	left: 13px;
+}
+
+.yMenuButton > .icon:before {
+	margin-top: -8px;
+}
+
+.yMenuButton > .icon:after {
+	margin-top: 8px;
+}
+
+.yMenuButton > .icon,
+.yMenuButton > .icon:before,
+.yMenuButton > .icon:after {
+	width: 24px;
+	height: 2px;
+}

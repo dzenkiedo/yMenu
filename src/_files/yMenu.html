@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>yMenu 1.9.1</title>
+</head>
+<body>
+
+<section class="sec">
+	<div class="yTitle title">Universal menu (&nbsp;jQuery&nbsp;&&nbsp;CSS3&nbsp;)&nbsp;| <b>yMenu</b></div>
+	<div class="content">
+		<div class="title">For all devices and screens with JSON settings</div>
+		<div class="codeTitle"><div class="codeTitleTab">yMenu init code</div></div>
+		<code class="codeJS">
+		$(<span class="codeString">'.yMenu'</span>).yMenu({<br>
+			&nbsp;&nbsp;yMenu                   : <span class="codeString">'.yMenu'</span>,<br>
+			&nbsp;&nbsp;yMenuContainer          : <span class="codeString">'.yMenuContainer'</span>,<br>
+			&nbsp;&nbsp;yMenuButtonTouchLayer   : <span class="codeString">'.yMenuButtonTouchLayer'</span>,<br>
+			&nbsp;&nbsp;yMenuButton             : <span class="codeString">'.yMenuButton'</span>,<br>
+			&nbsp;&nbsp;yMenuCurrentName        : <span class="codeString">'.yMenuCurrentName'</span>,<br>
+			&nbsp;&nbsp;yMenuBar                : <span class="codeString">'.yMenuBar'</span>,<br>
+			&nbsp;&nbsp;yMenuActiveColor        : <span class="codeString">'default'</span>,<br>
+			&nbsp;&nbsp;yMenuOpeners            : <span class="codeString">'c-arrow</span>',<br>
+			&nbsp;&nbsp;yMenuOpenersOrientation : <span class="codeString">'c-right</span>',<br>
+			&nbsp;&nbsp;yMultilevel             : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuContainerWidth     : <span class="codeInt">240</span>,<br>
+			&nbsp;&nbsp;yMenuShowBar            : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuShowCurrentName    : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuBodyReact          : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuRemember           : <span class="codeBool">false</span>,<br>
+			&nbsp;&nbsp;closeOnOutClick         : <span class="codeBool">true</span>,<br>
+			&nbsp;&nbsp;yMenuText               : <span class="codeString">'MENU'</span>,<br>
+			&nbsp;&nbsp;yMenuCloseText          : <span class="codeString">'CLOSE'</span><br>
+		});
+		</code>
+		<div class="title">Default UL > LI > A html syntaxis</div>
+		<div class="codeTitle"><div class="codeTitleTab">yMenu HTML code</div></div>
+		<code class="codeHTML">
+			&lt;div class=<span class="codeString">"yMenu"</span>&gt;<br>
+			&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuContainer"</span>&gt;<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"inner"</span>&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/"</span>&gt;Home&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/about/"</span>&gt;About&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/services/"</span>&gt;Services&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/portfolio/"</span>&gt;Portfolio&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/"</span>&gt;Lab&lt;/a&gt;&lt;span class="show"&gt;&amp;nbsp;&lt;/span&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/"</span>&gt;Web&lt;/a&gt;&lt;span class="show"&gt;&amp;nbsp;&lt;/span&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/frontend"</span>&gt;Front-End&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/web/backend"</span>&gt;Back-End&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/design/"</span>&gt;Design&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/lab/promo/"</span>&gt;Promo&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href=<span class="codeString">"/contacts/"</span>&gt;Contacts&lt;/a&gt;&lt;span class=<span class="codeString">"show"</span>&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuButton"</span>&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"icon"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuButtonTouchLayer"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuCurrentName"</span>&gt;&lt;/div&gt;<br>
+				&nbsp;&nbsp;&lt;div class=<span class="codeString">"yMenuBar"</span>&gt;&lt;div id=<span class="codeString">"yTitle"</span>&gt;&lt;/div&gt;&lt;/div&gt;<br>
+			&lt;/div&gt;
+		</code>
+	</div>
+</section>
+
+<div class="yMenuMask"></div>
+<div class="yMenuBarShadow"></div>
+<div class="yMenu">
+	<div class="yMenuContainer">
+		<div class="inner">
+			<div class="yMenuMainName apromo"></div>
+			<ul>
+				<li><a href="/">Home</a><span class="show">&nbsp;</span></li>
+				<li><a href="/about/">About</a><span class="show">&nbsp;</span></li>
+				<li><a href="/services/">Services</a><span class="show">&nbsp;</span></li>
+				<li><a href="/portfolio/">Portfolio</a><span class="show">&nbsp;</span></li>
+				<li><a href="/lab/">Lab</a><span class="show">&nbsp;</span>
+					<ul>
+						<li><a href="/lab/web/">Web</a><span class="show">&nbsp;</span>
+							<ul>
+								<li><a href="/lab/web/frontend">Front-End</a><span class="show">&nbsp;</span></li>
+								<li><a href="/lab/web/backend">Back-End</a><span class="show">&nbsp;</span></li>
+							</ul>
+						</li>
+						<li><a href="/lab/design/">Design</a><span class="show">&nbsp;</span></li>
+						<li><a href="/lab/promo/">Promo</a><span class="show">&nbsp;</span></li>
+					</ul>
+				</li>
+				<li><a href="">Contacts</a><span class="show">&nbsp;</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="yMenuButton"><div class="icon"></div><div class="yMenuButtonTouchLayer"></div></div>
+	<div class="yMenuCurrentName"></div>
+	<div class="yMenuBar"><div id="yTitle"></div></div>
+</div>
+
+</body>
+
+<link rel="stylesheet" href="css/clearsans.css">
+<link rel="stylesheet" href="css/cssBase.css">
+<link rel="stylesheet" href="css/cssCode.css">
+<link rel="stylesheet" href="css/cssMatherial.css">
+<link rel="stylesheet" href="css/cssMatherialBlueGrey.css">
+
+<link rel="stylesheet" href="yMenu/yMenu.css">
+<link rel="stylesheet" href="yMenu/yMenuStyles/yMatherialBlueGrey.css">
+<link rel="stylesheet" href="yMenu/yMenuStyles/ySize64.css">
+<link rel="stylesheet" href="yMenu/yMenuStyles/yWhiteMenuLayer.css">
+</html>
+<script type="text/javascript" defer src="jquery-2.1.3.min.js"></script>
+<script type="text/javascript" defer src="yMenu/yMenu.js"></script>
+<script type="text/javascript" defer src="yInit.js"></script>

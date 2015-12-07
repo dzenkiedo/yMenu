@@ -1,0 +1,1027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"custom",
+				"custom-orange-base"
+			],
+			[
+				"cu",
+				"custom-orange-base"
+			],
+			[
+				"cus",
+				"custom-orange-base"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"orange-",
+				"custom-orange-base"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"fon",
+				"fontSize(n)	mocha.js"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"m",
+				"mo	BEM mods mod"
+			],
+			[
+				"mo",
+				"modifiers"
+			],
+			[
+				"main",
+				"mainBowerFiles"
+			],
+			[
+				"boo",
+				"bootstrap-stylus"
+			],
+			[
+				"bo",
+				"bowerDir"
+			],
+			[
+				"src",
+				"srcDir"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"media",
+				"media-queries"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"ora",
+				"orange-light"
+			],
+			[
+				"oran",
+				"orange-base"
+			],
+			[
+				"lef",
+				"left-right-modifier"
+			],
+			[
+				"te",
+				"text-align-last"
+			],
+			[
+				"b-nav-item-",
+				"b-nav-item-group"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"imop",
+				"important"
+			],
+			[
+				"tc",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"btt",
+				"bottom"
+			],
+			[
+				"bbt",
+				"border-bottom"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"transition",
+				"transition-property"
+			],
+			[
+				"b",
+				"bdb	border-bottom"
+			],
+			[
+				"ib",
+				"inline-block"
+			],
+			[
+				"d",
+				"d:ib	display:inline-block"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"item",
+				"item-group"
+			],
+			[
+				"in",
+				"include	@include"
+			],
+			[
+				"bas",
+				"base-b-nav-height"
+			],
+			[
+				"bra",
+				"bst-navbar:brand	bst-navbar-brand"
+			],
+			[
+				"bs",
+				"bst-icon	bst-icon"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/dev/design/yMenu/README.md",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": ".gitignore",
+			"file_size": 0,
+			"file_write_time": 130939957497594273,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 2546,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/_files/yMenu/yMenu.js",
+			"settings":
+			{
+				"buffer_size": 6937,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 839,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 174.0,
+		"last_filter": "jade",
+		"selected_items":
+		[
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Validate"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"glu",
+				"Glue - Launch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"css",
+				"Snippet: bst-cdn-css"
+			],
+			[
+				"pret",
+				"Pretty JSON: Validate"
+			],
+			[
+				"pre",
+				"Pretty JSON: Validate"
+			],
+			[
+				"prett",
+				"Pretty JSON: Validate"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				":ws",
+				":w - Save"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"JS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"JSH",
+				"JSHint"
+			],
+			[
+				"jq",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: CSS"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"tex",
+				"Snippet: bst-input-text-h"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"if",
+				"Snippet: <tfoot>"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"bst",
+				"Snippet: bst-cdn-js"
+			],
+			[
+				"open",
+				"OpenPath: Open file folder"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/dev/design/ymenu2",
+		"/D/dev/design/ymenu2/src/_files",
+		"/D/dev/design/ymenu2/src/_files/yMenu",
+		"/D/dev/design/ymenu2/src/_files/yMenu/yMenuStyles"
+	],
+	"file_history":
+	[
+		"/D/apps_data/YandexDisk/layouts/foxexpo/icon-clock.svg",
+		"/D/apps_data/YandexDisk/layouts/foxexpo/drawing.svg",
+		"/D/apps_data/YandexDisk/layouts/foxexpo/icon-arrow.svg",
+		"/D/apps_data/YandexDisk/layouts/foxexpo/dev_logo_layout_svg.svg",
+		"/D/dev/business/foxexpo/frontend/src/templates/layouts/styleguide.jade",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/dev-blocks/styleguide.jade",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_footer.jade",
+		"/D/dev/business/foxexpo/frontend/bower.json",
+		"/D/dev/business/foxexpo/frontend/build/layoutMain.html",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-cta-form.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-logo.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-adv.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/layout.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/_mixins.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-submenu.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-slider.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-slide.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-phone.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-nav.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-menu.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/styl-blocks/b-main-panel.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/styl-blocks/b-cta-form.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/styl-blocks/b-submenu.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/styl-blocks/b-slide.styl",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/dev/business/foxexpo/frontend/src/styl/_fonts.styl",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-stylus/bootstrap/button-groups.styl",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-stylus/bootstrap/panels.styl",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-stylus/bootstrap/buttons.styl",
+		"/D/dev/business/foxexpo/frontend/gulpfile.coffee",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-nav.json",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/D/dev/business/terminal.glue",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_header.jade",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-main-panel.json",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-slide.json",
+		"/D/dev/business/foxexpo/frontend/build/css/main-style.css",
+		"/D/dev/business/foxexpo/frontend/build/css/vendors-style.css",
+		"/D/dev/business/foxexpo/frontend/build/fonts/raleway/install-a-webfont.txt",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO8963383A/raleway.css",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-slider.css",
+		"/D/dev/business/foxexpo/frontend/build/fonts/raleway/Raleway-ExtraLight.ttf.svg",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zOC460F07C/clearsans.css",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zOCBEF5A48/opensans.css",
+		"/D/dev/business/foxexpo/src/icomoon-full/style.css",
+		"/D/dev/business/foxexpo/src/icomoon-full/demo.html",
+		"/D/dev/business/foxexpo/frontend/build/icons.html",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zOCD2D3A2A/style.css",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_icons.jade",
+		"/D/dev/business/foxexpo/frontend/build/fonts/icomoon/icomoon3.svg",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO860A2648/Read Me.txt",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-slide.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-menu.json",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-logo.json",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-phone.json",
+		"/D/dev/business/foxexpo/frontend/src/styl/json/blocks/b-submenu.json",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO02CE69FE/install-a-webfont.txt",
+		"/D/dev/business/foxexpo/frontend/src/sass/vendors.scss",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47F0EC43/install-a-webfont.txt",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47FF5652/install-a-webfont.txt",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47F07DE2/install-a-webfont.txt",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47F0E691/install-a-webfont.txt",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47F3C712/Raleway-Light.ttf.svg",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47FA97D1/Raleway-Medium.ttf.svg",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO47FC3561/install-a-webfont.txt",
+		"/D/dev/business/foxexpo/frontend/src/coffee/topMenu.coffee",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/User/Stylus.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/Stylus/Stylus.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/C/Users/dzenkiedoPKW/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/D/dev/business/foxexpo/frontend/src/styl/_variables_custom.styl",
+		"/D/dev/business/foxexpo/frontend/node_modules/bootstrap-styl/bootstrap/navbar.styl",
+		"/D/dev/business/foxexpo/frontend/package.json",
+		"/D/dev/business/foxexpo/frontend/src/styl/_reset.styl",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/package.json",
+		"/D/dev/business/foxexpo/frontend/build/js/vendor-scripts.js",
+		"/D/dev/business/foxexpo/frontend/src/styl/bootstrap.styl",
+		"/D/dev/business/foxexpo/frontend/src/sass/layout.scss",
+		"/D/programs/other/new_file.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/blocks/b-nav.styl",
+		"/D/downloads/other/скачанные файлы.svg",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_mainPanel.jade",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/scp35810/public_html/templates/gk_restaurant_custom_inner/html/com_virtuemart/category/default_fastcat.php",
+		"/D/apps_data/YandexDisk/index.php",
+		"/D/tmp/_xxx/i/icomoon.svg",
+		"/D/dev/business/foxexpo/frontend/node_modules/bootstrap-styl/bootstrap/index.styl",
+		"/D/dev/business/foxexpo/frontend/node_modules/bootstrap-styl/bootstrap/custom-fonts.styl",
+		"/D/dev/business/foxexpo/frontend/src/sass/_variables.scss",
+		"/D/dev/business/foxexpo/frontend/src/styl/_variables.styl",
+		"/D/dev/business/foxexpo/frontend/src/styl/variables.styl",
+		"/D/dev/business/foxexpo/frontend/build/js/custom-scripts.js",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_icomoon-icons.scss",
+		"/D/dev/business/foxexpo/frontend/src/js/sript.js",
+		"/D/dev/business/foxexpo/frontend/src/sass/_include-media.scss",
+		"/D/downloads/chrome/Полын Василий Анатольевич.pdf",
+		"/D/dev/business/foxexpo/frontend/src/img/svg-sprite.svg",
+		"/D/dev/business/foxexpo/frontend/build/img/svg-sprite.svg",
+		"/D/apps_data/YandexDisk/layouts/foxexpo/csv-sprite.svg",
+		"/D/dev/business/foxexpo/frontend/src/templates/layouts/layoutMain.jade",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_custom-fonts.scss",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss",
+		"/D/dev/business/foxexpo/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss",
+		"/D/dev/business/foxexpo/frontend/build/c_js/main.js",
+		"/D/dev/business/foxexpo/frontend/src/fonts/clear sans/clearsans.css",
+		"/D/dev/business/foxexpo/frontend/src/fonts/FiraSans-Bold.otf",
+		"/D/dev/business/foxexpo/frontend/src/templates/layouts/icons.jade",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_advBlock.jade",
+		"/D/dev/business/foxexpo/frontend/src/templates/elements/_head.jade",
+		"/D/dev/business/foxexpo/frontend/src/sass/variables.scss",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zOC1951F9E/bubble.svg",
+		"/D/dev/business/foxexpo/frontend/build/img/icomoon.svg",
+		"/D/dev/business/foxexpo/frontend/src/sass/_reset.scss",
+		"/D/dev/business/foxexpo/frontend/src/package.json",
+		"/D/dev/business/foxexpo/frontend/111/package.json",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO838D149F/icomoon.svg",
+		"/D/dev/business/foxexpo/frontend/src/img/icomoon.svg",
+		"/D/dev/business/foxexpo/frontend/build/fonts/icomoon/icomoon.svg",
+		"/D/dev/business/foxexpo/frontend/src/coffee/main.coffee",
+		"/D/dev/business/foxexpo/frontend/gulpfile1.js",
+		"/C/Users/dzenkiedoPKW/AppData/Local/Temp/7zO879500D9/colorChange.svg"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+			"D:\\dev\\business\\foxexpo\\frontend\\bower_components\\bootstrap-sass\\assets\\stylesheets\\bootstrap",
+			"D:\\dev\\ediweb.by\\work\\docuweb_1.0\\framework",
+			"D:\\dev\\ediweb.by\\work\\docuweb_1.0\\view",
+			"D:\\dev\\ediweb.by\\work\\docuweb_1.0"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			":",
+			"padd",
+			"img-thumb",
+			"100%",
+			"item-desc",
+			"media-rules",
+			"b-",
+			"b-nav",
+			":a|:h|[123456789].:|\\..*?:",
+			":a|:h",
+			",media-rules",
+			"-block",
+			"json",
+			"'",
+			"', { ",
+			"json/blocks/",
+			"\"",
+			"json/blocks",
+			"\"",
+			"\n      ",
+			"\\",
+			"\\\\\\\\",
+			"\\",
+			"\\\\",
+			"main",
+			":hover",
+			"button\\:active",
+			"2.36rem",
+			"url\\('raleway.*?\\.",
+			"\\),\\ ",
+			"\\}",
+			"\\{",
+			";",
+			":",
+			"100",
+			"Raleway",
+			"margin:1rem 0",
+			"width:100%",
+			"1rem",
+			"2rem",
+			"100%",
+			"\"",
+			"1.61rem/1",
+			"14px/1",
+			"1.5rem/1",
+			"open sans",
+			"url('",
+			"),",
+			":",
+			"),",
+			":",
+			"),",
+			"font-family",
+			"url('",
+			"\"",
+			"&#x",
+			".sow-",
+			"\"",
+			"'",
+			":",
+			"{}",
+			"\"",
+			"1px solid custom-orange-lighter",
+			"Raleway",
+			"/fonts",
+			"Raleway",
+			"{hash:",
+			"block",
+			"slide-property",
+			"-property",
+			"-",
+			":hover:before",
+			"12px",
+			"inline",
+			"b-nav-font-sm",
+			"          \"border-bottom\":\"solid 3px transparent\",\n",
+			"          \"border-bottom\":\"solid 3px transparent\",",
+			"\"height\"",
+			"link",
+			":",
+			";",
+			"border-bottom-width",
+			"\"display\": \"table-cell\",",
+			"relative",
+			"absolute",
+			"custom-orange-base",
+			"3px",
+			"border-bottom-width",
+			"\"position\":\"absolute\"",
+			"collapse",
+			".navbar-collapse",
+			"\n      ",
+			"def",
+			";",
+			"b-nav",
+			"logo",
+			",'",
+			"light",
+			"orang",
+			"$",
+			"js",
+			"border-radius-base",
+			"group",
+			"top",
+			"height",
+			" px",
+			":",
+			"& &",
+			"unquote",
+			"items",
+			"unqargs",
+			"prop",
+			"props",
+			"and",
+			"el.modifiers",
+			"settings",
+			"rules",
+			"            ",
+			"\" \"",
+			"\"",
+			"px,2",
+			"sans",
+			"width",
+			"9",
+			"'",
+			"element",
+			"_",
+			"-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/dev/design/yMenu/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/_files/yMenu/yMenu.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6923,
+								6923
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3888.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ymenu.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"frontend\\src\\styl\\styl-blocks\\b-slider.styl"
+			],
+			[
+				"_main",
+				"foxexpo\\frontend\\src\\templates\\elements\\_mainPanel.jade"
+			],
+			[
+				"layout.styl",
+				"foxexpo\\frontend\\src\\styl\\layout.styl"
+			],
+			[
+				"layo",
+				"foxexpo\\frontend\\src\\styl\\layout.styl"
+			],
+			[
+				"_va",
+				"foxexpo\\frontend\\src\\styl\\_variables.styl"
+			],
+			[
+				"elements/",
+				"foxexpo\\frontend\\src\\templates\\elements\\_mainPanel.jade"
+			],
+			[
+				"b-phone",
+				"foxexpo\\frontend\\src\\styl\\json\\blocks\\b-phone.json"
+			],
+			[
+				"b-logo",
+				"foxexpo\\frontend\\src\\styl\\json\\blocks\\b-logo.json"
+			],
+			[
+				"b-men",
+				"foxexpo\\frontend\\src\\styl\\json\\blocks\\b-menu.json"
+			],
+			[
+				"b-menu",
+				"foxexpo\\frontend\\src\\styl\\json\\blocks\\b-menu.json"
+			],
+			[
+				"dist/",
+				"foxexpo\\frontend\\dist\\main.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\dev\\business\\foxexpo\\foxexpo-front.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

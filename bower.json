@@ -1,0 +1,26 @@
+{
+  "name": "yMenu",
+  "description": "yMenu - Responsive menu",
+  "main": "index.js",
+  "authors": [
+    "https://github.com/YurySosnov"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "menu",
+    "responsive",
+    "menu"
+  ],
+  "homepage": "https://github.com/YurySosnov/yMenu",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

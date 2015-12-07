@@ -1,0 +1,50 @@
+/* yMatherialBlueGrey  */
+
+.yMenuContainer,
+.yMenuButton,
+.yMenuCurrentName,
+.yMenuBar {
+	background-color: #607D8B;
+}
+
+.yMenuContainer a.current,
+.yMenuContainer a.current:hover {
+	color: #607D8B;
+	background-color: rgba(0,0,0,.2);
+}
+
+.yMenuButton > .icon,
+.yMenuButton > .icon:before,
+.yMenuButton > .icon:after {
+	background-color: #fff;
+}
+
+.yMenuContainer,
+.yMenuButton,
+.yMenuCurrentName,
+.yMenuBar,
+.yMenuContainer a,
+.yMenuCurrentPageNavTitle,
+.yMenuContainer > .inner > ul > li > a {
+	color: #fff;
+}
+
+.yMenuContainer a:hover,
+span.yMenuSep,
+span.show:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.yMenuContainer > .inner > ul > li ul {
+	background-color: rgba(255,255,255,.1);
+}
+
+.yMenuButton.opened > .icon {
+	background-color: transparent;
+}
+
+/*
+.yMenuContainer > .inner > ul > li > ul > li > ul > li {
+	background-color: rgba(255,255,255,.1);
+}
+*/
